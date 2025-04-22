@@ -1,0 +1,18 @@
+data_sources:
+  current_season:
+    leagues:
+    - Premier League
+    - La Liga
+    - Bundesliga
+    - Serie A
+    - Ligue 1
+    season: 2024-2025
+  historical:
+    kaggle_dataset: hikne707/big-five-european-soccer-leagues
+    name: Big Five European Soccer Leagues
+    years: 1995-2015
+paths:
+  models: models/trained
+  processed_data: data/processed
+  raw_data: data/raw
+  reports: reports/figures
